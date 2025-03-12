@@ -3,7 +3,7 @@
 #SBATCH --time=04-00:00:00
 #SBATCH --partition=defq
 #SBATCH --mem=192GB
-#SBATCH --mail-user=agmarshall@houstonmethodist.org
+#SBATCH --mail-user=myemail@myemail.org
 #SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --ntasks-per-node=64
 #SBATCH --nodes=1
