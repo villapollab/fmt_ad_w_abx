@@ -1,0 +1,6 @@
+"feature"	"metadata"	"value"	"name"	"coef"	"null_hypothesis"	"stderr"	"pval_individual"	"qval_individual"	"pval_joint"	"qval_joint"	"error"	"model"	"N"	"N_not_zero"
+"g__Lepagella"	"Treatment"	"FMT"	"TreatmentFMT"	3.05897846313932	0	0.764863052627978	6.35084750003533e-05	0.0107964407500601	0.00012701291667431	0.012320252917408	NA	"prevalence"	73	51
+"g__Parasutterella_564865"	"Treatment"	"FMT"	"TreatmentFMT"	-2.43247618255774	-0.216192636048604	0.536641966545222	0.000383670736335384	0.0326120125885077	0.000383670736335384	0.0186080307122661	NA	"abundance"	73	53
+"g__Lepagella"	"Treatment"	"FMT"	"TreatmentFMT"	0.484179082750803	-0.216192636048604	0.409571276825423	0.143217677517668	0.579690599476276	0.00012701291667431	0.012320252917408	NA	"abundance"	73	51
+"g__Parasutterella_564865"	"Treatment"	"FMT"	"TreatmentFMT"	-0.716686029996608	0	0.537158129994943	0.182132431768181	0.592189856153676	0.000383670736335384	0.0186080307122661	"Prevalence association possibly induced 
+by stronger abundance association"	"prevalence"	73	53

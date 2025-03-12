@@ -1,0 +1,384 @@
+2025-03-12 08:46:54.732734 INFO::Writing function arguments to log file
+2025-03-12 08:46:54.75396 DEBUG::Function arguments
+2025-03-12 08:46:54.755565 DEBUG::Output folder: data/fmtad_wabx_maaslin3_11pi_sex
+2025-03-12 08:46:54.757046 DEBUG::Formula: Sex
+2025-03-12 08:46:54.758414 DEBUG::Fixed effects:
+2025-03-12 08:46:54.759799 DEBUG::Reference:
+2025-03-12 08:46:54.761115 DEBUG::Random effects:
+2025-03-12 08:46:54.762536 DEBUG::Group effects:
+2025-03-12 08:46:54.764083 DEBUG::Ordered effects:
+2025-03-12 08:46:54.765532 DEBUG::Strata effects:
+2025-03-12 08:46:54.767003 DEBUG::Min Abundance: 0.000000
+2025-03-12 08:46:54.768543 DEBUG::Min Prevalence: 0.000000
+2025-03-12 08:46:54.769814 DEBUG::Zero Threshold: 0.000000
+2025-03-12 08:46:54.771263 DEBUG::Min variance: 0.000000
+2025-03-12 08:46:54.772601 DEBUG::Max significance: 0.100000
+2025-03-12 08:46:54.77391 DEBUG::Normalization: TSS
+2025-03-12 08:46:54.775293 DEBUG::Transform: LOG
+2025-03-12 08:46:54.777693 DEBUG::Correction method: BH
+2025-03-12 08:46:54.779023 DEBUG::Standardize: TRUE
+2025-03-12 08:46:54.780348 DEBUG::Abundance median comparison: TRUE
+2025-03-12 08:46:54.781642 DEBUG::Prevalence median comparison: FALSE
+2025-03-12 08:46:54.782948 DEBUG::Abundance median comparison threshold: 0
+2025-03-12 08:46:54.78425 DEBUG::Prevalence median comparison threshold: 0
+2025-03-12 08:46:54.785498 DEBUG::Subtract median: FALSE
+2025-03-12 08:46:54.786957 DEBUG::Warn prevalence: TRUE
+2025-03-12 08:46:54.788396 DEBUG::Small random effects: FALSE
+2025-03-12 08:46:54.789665 DEBUG::Augment: TRUE
+2025-03-12 08:46:54.791045 DEBUG::Evaluate only:
+2025-03-12 08:46:54.792435 DEBUG::Cores: 1
+2025-03-12 08:46:54.793804 DEBUG::Balanced Summary plot: FALSE
+2025-03-12 08:46:54.795174 INFO::Verifying options selected are valid
+2025-03-12 08:46:54.797086 INFO::Determining format of input files
+2025-03-12 08:46:54.798957 INFO::Input format is data samples as columns and metadata samples as rows
+2025-03-12 08:46:54.802336 DEBUG::Transformed data so samples are rows
+2025-03-12 08:46:54.803873 DEBUG::A total of 73 samples were found in both the data and metadata
+2025-03-12 08:46:54.805143 DEBUG::Reordering data/metadata to use same sample ordering
+2025-03-12 08:46:54.80845 INFO::Running selected normalization method: TSS
+2025-03-12 08:46:54.816193 INFO::Creating output feature tables folder
+2025-03-12 08:46:54.820618 INFO::Writing normalized data to file data/fmtad_wabx_maaslin3_11pi_sex/features/data_norm.tsv
+2025-03-12 08:46:54.831613 INFO::Filter data based on min abundance and min prevalence
+2025-03-12 08:46:54.834255 INFO::Total samples in data: 73
+2025-03-12 08:46:54.836105 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2025-03-12 08:46:54.860681 INFO::Total filtered features: 141
+2025-03-12 08:46:54.862897 INFO::Filtered feature names from abundance and prevalence filtering: c__Bacilli_A Class, c__Verrucomicrobiae Class, f__Amphibacillaceae Family, f__Anaerovoracaceae Family, f__Bacillaceae_C_302577 Family, f__CAG-508 Family, f__Cellulosilyticaceae Family, f__Lactobacillaceae Family, f__Mitochondria Family, f__NBRC-103111 Family, f__Paenibacillaceae_367444 Family, f__Streptosporangiaceae Family, f__Tissierellaceae Family, f__UBA1242 Family, g__Acinetobacter, g__Agrobacterium, g__Alkalicoccobacillus, g__Alkaliphilus_B, g__Anaerocolumna, g__Anaerosalibacter, g__Aneurinibacillus_B_362085, g__Arthrobacter_E_386002, g__Atopostipes, g__Bacillus_A, g__Bacillus_J_295379, g__Bacillus_O_301684, g__Bacillus_P_294101, g__Blautia_A_141780, g__Brachybacterium, g__Brevibacillus_D_362672, g__Brevibacillus_D_362705, g__Brevibacterium, g__Brucella_498865, g__Burkholderia, g__CABMKH01, g__CAG-475, g__Caldibacillus_B, g__Cellulosilyticum, g__Cellulosimicrobium, g__Cerasibacillus, g__Clavibacter, g__Clostridium_AG_200053, g__Clostridium_B, g__Clostridium_F, g__Clostridium_H_221916, g__Corynebacterium, g__Curtobacterium, g__Enterococcus_A, g__Enterococcus_D, g__Enterococcus_F_359103, g__Faecimonas, g__Gallicola, g__Glutamicibacter, g__Glycomyces, g__Haemophilus_D_735815, g__Hathewaya, g__JAGBWK01, g__JC017, g__Jeotgalibaca, g__Klebsiella_724518, g__Kroppenstedtia_A, g__Kurthia, g__Lachnospira, g__Lachnotalea, g__Lacticaseibacillus, g__Lactiplantibacillus, g__Lactococcus_A_346120, g__Latilactobacillus, g__Lederbergia_A_302086, g__Lederbergia_A_302195, g__Levilactobacillus, g__Limivivens, g__Luteimonas_D, g__Lysinibacillus_304693, g__Mammaliicoccus_319276, g__Mammaliicoccus_319278, g__Massilibacterium, g__Massilioclostridium, g__Metaruminococcus_A, g__Methylobacterium, g__Microbacterium_A_383321, g__Muribaculum, g__Nesterenkonia, g__Oceanobacillus_287537, g__Ochrobactrum_A_498864, g__Ochrobactrum_A_498913, g__Ochrobactrum_A_499075, g__Paenibacillus_A, g__Paenibacillus_J_366884, g__Paenibacillus_L, g__Paenibacillus_S, g__Pandoraea, g__Pantoea_680069, g__Paramuribaculum, g__Peptoniphilus_B_226807, g__Planifilum, g__Plantibacter, g__Pradoshia, g__Pseudobacillus, g__Pseudobutyricicoccus, g__Pseudofrankia, g__Pueribacillus, g__Quadrisphaera, g__Rathayibacter, g__Rhizobium_C_500208, g__Rhizobium_C_501058, g__Robertmurraya_297834, g__Robinsoniella, g__Romboutsia_C, g__Romboutsia_E, g__Rudaeicoccus, g__Ruminiclostridium_D, g__Rummeliibacillus, g__Saccharibacillus, g__Sarcina_200052, g__Sedimentibacter, g__Shouchella, g__Siminovitchia, g__Sinibacillus, g__Solibaculum, g__Sphingobacterium, g__Sphingomonas_L_486704, g__Sporosarcina, g__Streptomyces_400150, g__Tardiphaga, g__Tepidimicrobium, g__Terrisporobacter, g__Thermoactinomyces_A, g__Tissierella_A, g__Tissierella_B_223997, g__UBA5905, g__UMGS1994, g__Ureibacillus, g__Vagococcus_B, g__Virgibacillus_B_287557, g__Virgibacillus_I, g__Weissella, g__Xanthomonas_A_614442, o__Acetivibrionales Order, o__Bacillales_D Order, o__Bacteroidales Order
+2025-03-12 08:46:54.866628 INFO::Total features filtered by non-zero variance filtering: 23
+2025-03-12 08:46:54.868583 INFO::Filtered feature names from variance filtering: c__Clostridia_258483 Class, f__Acutalibacteraceae Family, f__Bacteroidaceae Family, f__Dehalobacteriaceae Family, f__Enterococcaceae Family, f__UBA660 Family, g__Anaerosporobacter, g__Angelakisella, g__Clostridioides_A, g__Clostridium_G, g__Coprocola, g__Coprosoma, g__Eubacterium_S, g__Evtepia, g__Fimenecus, g__Lachnoclostridium_A_184689, g__Massilibacillus, g__Massiliimalia, g__Otoolea_134252, g__Otoolea_134526, g__Roseburia_B, g__Ruminiclostridium_E, g__UBA737
+2025-03-12 08:46:54.870407 INFO::Writing filtered data to file data/fmtad_wabx_maaslin3_11pi_sex/features/filtered_data.tsv
+2025-03-12 08:46:54.878799 INFO::Running selected transform method: LOG
+2025-03-12 08:46:54.881792 INFO::Writing normalized, filtered, transformed data to file data/fmtad_wabx_maaslin3_11pi_sex/features/data_transformed.tsv
+2025-03-12 08:46:54.889932 INFO::Factor detected for categorial metadata 'Sex'. Using as-is.
+2025-03-12 08:46:54.891804 INFO::Applying z-score to standardize continuous metadata
+2025-03-12 08:46:54.897153 INFO::Running the linear model component
+2025-03-12 08:46:54.900642 INFO::Fitting model to feature number 1, c__Chloroplast Class
+2025-03-12 08:46:54.903691 WARNING::Fitting problem for feature 1 returning NA
+2025-03-12 08:46:54.906868 INFO::Fitting model to feature number 2, d__Bacteria Kingdom
+2025-03-12 08:46:54.911773 INFO::Fitting model to feature number 3, f__Borkfalkiaceae Family
+2025-03-12 08:46:54.915302 INFO::Fitting model to feature number 4, f__Christensenellaceae Family
+2025-03-12 08:46:54.920057 INFO::Fitting model to feature number 5, f__Clostridiaceae_222000 Family
+2025-03-12 08:46:54.92354 INFO::Fitting model to feature number 6, f__Coprobacillaceae Family
+2025-03-12 08:46:54.926485 WARNING::Fitting problem for feature 6 returning NA
+2025-03-12 08:46:54.929665 INFO::Fitting model to feature number 7, f__Eggerthellaceae Family
+2025-03-12 08:46:54.934339 INFO::Fitting model to feature number 8, f__Lachnospiraceae Family
+2025-03-12 08:46:54.939025 INFO::Fitting model to feature number 9, f__Muribaculaceae Family
+2025-03-12 08:46:54.943654 INFO::Fitting model to feature number 10, f__Oscillospiraceae_88309 Family
+2025-03-12 08:46:54.948754 INFO::Fitting model to feature number 11, f__Peptostreptococcaceae_256921 Family
+2025-03-12 08:46:54.953953 INFO::Fitting model to feature number 12, g__1XD8-76
+2025-03-12 08:46:54.957519 INFO::Fitting model to feature number 13, g__Acetatifactor
+2025-03-12 08:46:54.963453 INFO::Fitting model to feature number 14, g__Acidovorax_F_589733
+2025-03-12 08:46:54.970557 INFO::Fitting model to feature number 15, g__Acutalibacter
+2025-03-12 08:46:54.975532 INFO::Fitting model to feature number 16, g__Adlercreutzia_A_404199
+2025-03-12 08:46:54.98052 INFO::Fitting model to feature number 17, g__Adlercreutzia_A_404257
+2025-03-12 08:46:54.985151 INFO::Fitting model to feature number 18, g__Adlercreutzia_A_404260
+2025-03-12 08:46:54.990311 INFO::Fitting model to feature number 19, g__Akkermansia
+2025-03-12 08:46:54.994972 INFO::Fitting model to feature number 20, g__Alistipes_A_871400
+2025-03-12 08:46:55.00037 INFO::Fitting model to feature number 21, g__Anaerotruncus
+2025-03-12 08:46:55.005089 INFO::Fitting model to feature number 22, g__Avispirillum
+2025-03-12 08:46:55.008588 INFO::Fitting model to feature number 23, g__Bacteroides_H_857956
+2025-03-12 08:46:55.013325 INFO::Fitting model to feature number 24, g__Bifidobacterium_388775
+2025-03-12 08:46:55.017979 INFO::Fitting model to feature number 25, g__Borkfalkia
+2025-03-12 08:46:55.022712 INFO::Fitting model to feature number 26, g__Brotaphodocola
+2025-03-12 08:46:55.027277 INFO::Fitting model to feature number 27, g__Butyribacter
+2025-03-12 08:46:55.031831 INFO::Fitting model to feature number 28, g__C-19
+2025-03-12 08:46:55.035202 INFO::Fitting model to feature number 29, g__CAG-269
+2025-03-12 08:46:55.039822 INFO::Fitting model to feature number 30, g__CAG-314
+2025-03-12 08:46:55.044464 INFO::Fitting model to feature number 31, g__CAG-873
+2025-03-12 08:46:55.049163 INFO::Fitting model to feature number 32, g__COE1
+2025-03-12 08:46:55.05388 INFO::Fitting model to feature number 33, g__Choladousia
+2025-03-12 08:46:55.058964 INFO::Fitting model to feature number 34, g__Clostridium_AQ
+2025-03-12 08:46:55.062451 INFO::Fitting model to feature number 35, g__Clostridium_J
+2025-03-12 08:46:55.065905 INFO::Fitting model to feature number 36, g__Clostridium_T
+2025-03-12 08:46:55.070549 INFO::Fitting model to feature number 37, g__Comamonas_F_589250
+2025-03-12 08:46:55.075225 INFO::Fitting model to feature number 38, g__Dorea_D_143701
+2025-03-12 08:46:55.079797 INFO::Fitting model to feature number 39, g__Dubosiella
+2025-03-12 08:46:55.084446 INFO::Fitting model to feature number 40, g__Duncaniella
+2025-03-12 08:46:55.089061 INFO::Fitting model to feature number 41, g__Dysosmobacter
+2025-03-12 08:46:55.093642 INFO::Fitting model to feature number 42, g__Emergencia
+2025-03-12 08:46:55.098531 INFO::Fitting model to feature number 43, g__Enterenecus
+2025-03-12 08:46:55.10311 INFO::Fitting model to feature number 44, g__Enterocloster
+2025-03-12 08:46:55.106671 INFO::Fitting model to feature number 45, g__Enterococcus_B
+2025-03-12 08:46:55.110171 INFO::Fitting model to feature number 46, g__Enterococcus_H_360604
+2025-03-12 08:46:55.114755 INFO::Fitting model to feature number 47, g__Enterorhabdus
+2025-03-12 08:46:55.119615 INFO::Fitting model to feature number 48, g__Eubacterium_F
+2025-03-12 08:46:55.124276 INFO::Fitting model to feature number 49, g__Eubacterium_G_180878
+2025-03-12 08:46:55.128975 INFO::Fitting model to feature number 50, g__Eubacterium_R
+2025-03-12 08:46:55.133707 INFO::Fitting model to feature number 51, g__Faecalibaculum
+2025-03-12 08:46:55.13846 INFO::Fitting model to feature number 52, g__Granulimonas
+2025-03-12 08:46:55.143203 INFO::Fitting model to feature number 53, g__Hominilimicola
+2025-03-12 08:46:55.146238 WARNING::Fitting problem for feature 53 returning NA
+2025-03-12 08:46:55.14933 INFO::Fitting model to feature number 54, g__Hominisplanchenecus_A
+2025-03-12 08:46:55.153947 INFO::Fitting model to feature number 55, g__Ileibacterium
+2025-03-12 08:46:55.157341 INFO::Fitting model to feature number 56, g__Kineothrix
+2025-03-12 08:46:55.162129 INFO::Fitting model to feature number 57, g__Lachnoclostridium_B
+2025-03-12 08:46:55.166788 INFO::Fitting model to feature number 58, g__Lacrimispora
+2025-03-12 08:46:55.171454 INFO::Fitting model to feature number 59, g__Lactobacillus
+2025-03-12 08:46:55.176041 INFO::Fitting model to feature number 60, g__Laedolimicola
+2025-03-12 08:46:55.180639 INFO::Fitting model to feature number 61, g__Lawsonibacter
+2025-03-12 08:46:55.185603 INFO::Fitting model to feature number 62, g__Lepagella
+2025-03-12 08:46:55.190191 INFO::Fitting model to feature number 63, g__Lientehia
+2025-03-12 08:46:55.193722 INFO::Fitting model to feature number 64, g__Ligilactobacillus
+2025-03-12 08:46:55.198493 INFO::Fitting model to feature number 65, g__Limosilactobacillus
+2025-03-12 08:46:55.201976 INFO::Fitting model to feature number 66, g__MD308
+2025-03-12 08:46:55.206613 INFO::Fitting model to feature number 67, g__Merdibacter
+2025-03-12 08:46:55.211495 INFO::Fitting model to feature number 68, g__Mesorhizobium_I
+2025-03-12 08:46:55.216251 INFO::Fitting model to feature number 69, g__NK4A144
+2025-03-12 08:46:55.220968 INFO::Fitting model to feature number 70, g__Novosphingobium
+2025-03-12 08:46:55.225591 INFO::Fitting model to feature number 71, g__Paraclostridium
+2025-03-12 08:46:55.229108 INFO::Fitting model to feature number 72, g__Parasutterella_564865
+2025-03-12 08:46:55.233661 INFO::Fitting model to feature number 73, g__Parvibacter
+2025-03-12 08:46:55.236641 WARNING::Fitting problem for feature 73 returning NA
+2025-03-12 08:46:55.239718 INFO::Fitting model to feature number 74, g__Pelethenecus
+2025-03-12 08:46:55.244373 INFO::Fitting model to feature number 75, g__Petralouisia
+2025-03-12 08:46:55.249272 INFO::Fitting model to feature number 76, g__Porcincola
+2025-03-12 08:46:55.253819 INFO::Fitting model to feature number 77, g__Pseudomonas_E_647464
+2025-03-12 08:46:55.258517 INFO::Fitting model to feature number 78, g__Romboutsia_B
+2025-03-12 08:46:55.263159 INFO::Fitting model to feature number 79, g__Romboutsia_D_247318
+2025-03-12 08:46:55.268102 INFO::Fitting model to feature number 80, g__Ruminococcus_B
+2025-03-12 08:46:55.272783 INFO::Fitting model to feature number 81, g__Schaedlerella
+2025-03-12 08:46:55.277553 INFO::Fitting model to feature number 82, g__Sporofaciens
+2025-03-12 08:46:55.282144 INFO::Fitting model to feature number 83, g__Staphylococcus
+2025-03-12 08:46:55.286884 INFO::Fitting model to feature number 84, g__Stenotrophomonas_A_615274
+2025-03-12 08:46:55.291491 INFO::Fitting model to feature number 85, g__Streptococcus
+2025-03-12 08:46:55.294386 WARNING::Fitting problem for feature 85 returning NA
+2025-03-12 08:46:55.297398 INFO::Fitting model to feature number 86, g__Suilimivivens
+2025-03-12 08:46:55.302158 INFO::Fitting model to feature number 87, g__Thomasclavelia
+2025-03-12 08:46:55.306736 INFO::Fitting model to feature number 88, g__Turicibacter
+2025-03-12 08:46:55.311479 INFO::Fitting model to feature number 89, g__UBA2730
+2025-03-12 08:46:55.316109 INFO::Fitting model to feature number 90, g__UBA3282
+2025-03-12 08:46:55.320861 INFO::Fitting model to feature number 91, g__UBA7173
+2025-03-12 08:46:55.324533 INFO::Fitting model to feature number 92, g__UBA9414
+2025-03-12 08:46:55.329086 INFO::Fitting model to feature number 93, g__UBA946
+2025-03-12 08:46:55.333816 INFO::Fitting model to feature number 94, g__Ventrisoma
+2025-03-12 08:46:55.33843 INFO::Fitting model to feature number 95, g__WRAF01
+2025-03-12 08:46:55.343058 INFO::Fitting model to feature number 96, o__Christensenellales Order
+2025-03-12 08:46:55.347614 INFO::Fitting model to feature number 97, o__Lachnospirales Order
+2025-03-12 08:46:55.350731 WARNING::Fitting problem for feature 97 returning NA
+2025-03-12 08:46:55.359329 INFO::Performing tests against medians
+2025-03-12 08:46:55.736041 INFO::Counting total values for each feature
+2025-03-12 08:46:55.741295 INFO::Running the logistic model component
+2025-03-12 08:46:55.745338 INFO::Fitting model to feature number 1, c__Chloroplast Class
+2025-03-12 08:46:55.752213 INFO::Fitting model to feature number 2, d__Bacteria Kingdom
+2025-03-12 08:46:55.758709 INFO::Fitting model to feature number 3, f__Borkfalkiaceae Family
+2025-03-12 08:46:55.76513 INFO::Fitting model to feature number 4, f__Christensenellaceae Family
+2025-03-12 08:46:55.771536 INFO::Fitting model to feature number 5, f__Clostridiaceae_222000 Family
+2025-03-12 08:46:55.778341 INFO::Fitting model to feature number 6, f__Coprobacillaceae Family
+2025-03-12 08:46:55.784862 INFO::Fitting model to feature number 7, f__Eggerthellaceae Family
+2025-03-12 08:46:55.791351 INFO::Fitting model to feature number 8, f__Lachnospiraceae Family
+2025-03-12 08:46:55.79757 INFO::Fitting model to feature number 9, f__Muribaculaceae Family
+2025-03-12 08:46:55.80425 INFO::Fitting model to feature number 10, f__Oscillospiraceae_88309 Family
+2025-03-12 08:46:55.810558 INFO::Fitting model to feature number 11, f__Peptostreptococcaceae_256921 Family
+2025-03-12 08:46:55.81688 INFO::Fitting model to feature number 12, g__1XD8-76
+2025-03-12 08:46:55.823327 INFO::Fitting model to feature number 13, g__Acetatifactor
+2025-03-12 08:46:55.829567 INFO::Fitting model to feature number 14, g__Acidovorax_F_589733
+2025-03-12 08:46:55.835732 INFO::Fitting model to feature number 15, g__Acutalibacter
+2025-03-12 08:46:55.842072 INFO::Fitting model to feature number 16, g__Adlercreutzia_A_404199
+2025-03-12 08:46:55.848314 INFO::Fitting model to feature number 17, g__Adlercreutzia_A_404257
+2025-03-12 08:46:55.854715 INFO::Fitting model to feature number 18, g__Adlercreutzia_A_404260
+2025-03-12 08:46:55.860896 INFO::Fitting model to feature number 19, g__Akkermansia
+2025-03-12 08:46:55.867115 INFO::Fitting model to feature number 20, g__Alistipes_A_871400
+2025-03-12 08:46:55.873435 INFO::Fitting model to feature number 21, g__Anaerotruncus
+2025-03-12 08:46:55.879881 INFO::Fitting model to feature number 22, g__Avispirillum
+2025-03-12 08:46:55.886325 INFO::Fitting model to feature number 23, g__Bacteroides_H_857956
+2025-03-12 08:46:55.892575 INFO::Fitting model to feature number 24, g__Bifidobacterium_388775
+2025-03-12 08:46:55.898894 INFO::Fitting model to feature number 25, g__Borkfalkia
+2025-03-12 08:46:55.905263 INFO::Fitting model to feature number 26, g__Brotaphodocola
+2025-03-12 08:46:55.911922 INFO::Fitting model to feature number 27, g__Butyribacter
+2025-03-12 08:46:55.918039 INFO::Fitting model to feature number 28, g__C-19
+2025-03-12 08:46:55.924421 INFO::Fitting model to feature number 29, g__CAG-269
+2025-03-12 08:46:55.930743 INFO::Fitting model to feature number 30, g__CAG-314
+2025-03-12 08:46:55.937209 INFO::Fitting model to feature number 31, g__CAG-873
+2025-03-12 08:46:55.943632 INFO::Fitting model to feature number 32, g__COE1
+2025-03-12 08:46:55.949788 INFO::Fitting model to feature number 33, g__Choladousia
+2025-03-12 08:46:55.956226 INFO::Fitting model to feature number 34, g__Clostridium_AQ
+2025-03-12 08:46:55.963147 INFO::Fitting model to feature number 35, g__Clostridium_J
+2025-03-12 08:46:55.970444 INFO::Fitting model to feature number 36, g__Clostridium_T
+2025-03-12 08:46:55.977125 INFO::Fitting model to feature number 37, g__Comamonas_F_589250
+2025-03-12 08:46:55.98326 INFO::Fitting model to feature number 38, g__Dorea_D_143701
+2025-03-12 08:46:55.989661 INFO::Fitting model to feature number 39, g__Dubosiella
+2025-03-12 08:46:55.997267 INFO::Fitting model to feature number 40, g__Duncaniella
+2025-03-12 08:46:56.004373 INFO::Fitting model to feature number 41, g__Dysosmobacter
+2025-03-12 08:46:56.010732 INFO::Fitting model to feature number 42, g__Emergencia
+2025-03-12 08:46:56.017353 INFO::Fitting model to feature number 43, g__Enterenecus
+2025-03-12 08:46:56.023832 INFO::Fitting model to feature number 44, g__Enterocloster
+2025-03-12 08:46:56.0303 INFO::Fitting model to feature number 45, g__Enterococcus_B
+2025-03-12 08:46:56.036857 INFO::Fitting model to feature number 46, g__Enterococcus_H_360604
+2025-03-12 08:46:56.043276 INFO::Fitting model to feature number 47, g__Enterorhabdus
+2025-03-12 08:46:56.049598 INFO::Fitting model to feature number 48, g__Eubacterium_F
+2025-03-12 08:46:56.056079 INFO::Fitting model to feature number 49, g__Eubacterium_G_180878
+2025-03-12 08:46:56.062608 INFO::Fitting model to feature number 50, g__Eubacterium_R
+2025-03-12 08:46:56.069054 INFO::Fitting model to feature number 51, g__Faecalibaculum
+2025-03-12 08:46:56.075364 INFO::Fitting model to feature number 52, g__Granulimonas
+2025-03-12 08:46:56.081798 INFO::Fitting model to feature number 53, g__Hominilimicola
+2025-03-12 08:46:56.088314 INFO::Fitting model to feature number 54, g__Hominisplanchenecus_A
+2025-03-12 08:46:56.10268 INFO::Fitting model to feature number 55, g__Ileibacterium
+2025-03-12 08:46:56.115707 INFO::Fitting model to feature number 56, g__Kineothrix
+2025-03-12 08:46:56.122452 INFO::Fitting model to feature number 57, g__Lachnoclostridium_B
+2025-03-12 08:46:56.128861 INFO::Fitting model to feature number 58, g__Lacrimispora
+2025-03-12 08:46:56.162416 INFO::Fitting model to feature number 59, g__Lactobacillus
+2025-03-12 08:46:56.171007 INFO::Fitting model to feature number 60, g__Laedolimicola
+2025-03-12 08:46:56.178668 INFO::Fitting model to feature number 61, g__Lawsonibacter
+2025-03-12 08:46:56.186634 INFO::Fitting model to feature number 62, g__Lepagella
+2025-03-12 08:46:56.194697 INFO::Fitting model to feature number 63, g__Lientehia
+2025-03-12 08:46:56.202769 INFO::Fitting model to feature number 64, g__Ligilactobacillus
+2025-03-12 08:46:56.210274 INFO::Fitting model to feature number 65, g__Limosilactobacillus
+2025-03-12 08:46:56.218326 INFO::Fitting model to feature number 66, g__MD308
+2025-03-12 08:46:56.226023 INFO::Fitting model to feature number 67, g__Merdibacter
+2025-03-12 08:46:56.234106 INFO::Fitting model to feature number 68, g__Mesorhizobium_I
+2025-03-12 08:46:56.242533 INFO::Fitting model to feature number 69, g__NK4A144
+2025-03-12 08:46:56.250274 INFO::Fitting model to feature number 70, g__Novosphingobium
+2025-03-12 08:46:56.256902 INFO::Fitting model to feature number 71, g__Paraclostridium
+2025-03-12 08:46:56.263568 INFO::Fitting model to feature number 72, g__Parasutterella_564865
+2025-03-12 08:46:56.270157 INFO::Fitting model to feature number 73, g__Parvibacter
+2025-03-12 08:46:56.276901 INFO::Fitting model to feature number 74, g__Pelethenecus
+2025-03-12 08:46:56.28349 INFO::Fitting model to feature number 75, g__Petralouisia
+2025-03-12 08:46:56.289969 INFO::Fitting model to feature number 76, g__Porcincola
+2025-03-12 08:46:56.29656 INFO::Fitting model to feature number 77, g__Pseudomonas_E_647464
+2025-03-12 08:46:56.303113 INFO::Fitting model to feature number 78, g__Romboutsia_B
+2025-03-12 08:46:56.309676 INFO::Fitting model to feature number 79, g__Romboutsia_D_247318
+2025-03-12 08:46:56.316211 INFO::Fitting model to feature number 80, g__Ruminococcus_B
+2025-03-12 08:46:56.322654 INFO::Fitting model to feature number 81, g__Schaedlerella
+2025-03-12 08:46:56.328925 INFO::Fitting model to feature number 82, g__Sporofaciens
+2025-03-12 08:46:56.335613 INFO::Fitting model to feature number 83, g__Staphylococcus
+2025-03-12 08:46:56.342338 INFO::Fitting model to feature number 84, g__Stenotrophomonas_A_615274
+2025-03-12 08:46:56.348778 INFO::Fitting model to feature number 85, g__Streptococcus
+2025-03-12 08:46:56.355379 INFO::Fitting model to feature number 86, g__Suilimivivens
+2025-03-12 08:46:56.361798 INFO::Fitting model to feature number 87, g__Thomasclavelia
+2025-03-12 08:46:56.368363 INFO::Fitting model to feature number 88, g__Turicibacter
+2025-03-12 08:46:56.374737 INFO::Fitting model to feature number 89, g__UBA2730
+2025-03-12 08:46:56.381074 INFO::Fitting model to feature number 90, g__UBA3282
+2025-03-12 08:46:56.387461 INFO::Fitting model to feature number 91, g__UBA7173
+2025-03-12 08:46:56.393968 INFO::Fitting model to feature number 92, g__UBA9414
+2025-03-12 08:46:56.400262 INFO::Fitting model to feature number 93, g__UBA946
+2025-03-12 08:46:56.406542 INFO::Fitting model to feature number 94, g__Ventrisoma
+2025-03-12 08:46:56.412924 INFO::Fitting model to feature number 95, g__WRAF01
+2025-03-12 08:46:56.419397 INFO::Fitting model to feature number 96, o__Christensenellales Order
+2025-03-12 08:46:56.425754 INFO::Fitting model to feature number 97, o__Lachnospirales Order
+2025-03-12 08:46:56.44256 INFO::Counting total values for each feature
+2025-03-12 08:46:56.455101 INFO::Re-running abundances for warn_prevalence
+2025-03-12 08:46:56.457206 INFO::Running selected normalization method: TSS
+2025-03-12 08:46:56.464877 INFO::Running selected transform method: LOG
+2025-03-12 08:46:56.469539 INFO::Fitting model to feature number 1, c__Chloroplast Class
+2025-03-12 08:46:56.472606 WARNING::Fitting problem for feature 1 returning NA
+2025-03-12 08:46:56.475714 INFO::Fitting model to feature number 2, d__Bacteria Kingdom
+2025-03-12 08:46:56.48029 INFO::Fitting model to feature number 3, f__Borkfalkiaceae Family
+2025-03-12 08:46:56.483742 INFO::Fitting model to feature number 4, f__Christensenellaceae Family
+2025-03-12 08:46:56.48836 INFO::Fitting model to feature number 5, f__Clostridiaceae_222000 Family
+2025-03-12 08:46:56.491742 INFO::Fitting model to feature number 6, f__Coprobacillaceae Family
+2025-03-12 08:46:56.494697 WARNING::Fitting problem for feature 6 returning NA
+2025-03-12 08:46:56.497769 INFO::Fitting model to feature number 7, f__Eggerthellaceae Family
+2025-03-12 08:46:56.502499 INFO::Fitting model to feature number 8, f__Lachnospiraceae Family
+2025-03-12 08:46:56.5072 INFO::Fitting model to feature number 9, f__Muribaculaceae Family
+2025-03-12 08:46:56.511747 INFO::Fitting model to feature number 10, f__Oscillospiraceae_88309 Family
+2025-03-12 08:46:56.51647 INFO::Fitting model to feature number 11, f__Peptostreptococcaceae_256921 Family
+2025-03-12 08:46:56.521183 INFO::Fitting model to feature number 12, g__1XD8-76
+2025-03-12 08:46:56.524566 INFO::Fitting model to feature number 13, g__Acetatifactor
+2025-03-12 08:46:56.52941 INFO::Fitting model to feature number 14, g__Acidovorax_F_589733
+2025-03-12 08:46:56.534083 INFO::Fitting model to feature number 15, g__Acutalibacter
+2025-03-12 08:46:56.538719 INFO::Fitting model to feature number 16, g__Adlercreutzia_A_404199
+2025-03-12 08:46:56.543725 INFO::Fitting model to feature number 17, g__Adlercreutzia_A_404257
+2025-03-12 08:46:56.54856 INFO::Fitting model to feature number 18, g__Adlercreutzia_A_404260
+2025-03-12 08:46:56.553167 INFO::Fitting model to feature number 19, g__Akkermansia
+2025-03-12 08:46:56.557868 INFO::Fitting model to feature number 20, g__Alistipes_A_871400
+2025-03-12 08:46:56.562836 INFO::Fitting model to feature number 21, g__Anaerotruncus
+2025-03-12 08:46:56.567445 INFO::Fitting model to feature number 22, g__Avispirillum
+2025-03-12 08:46:56.571549 INFO::Fitting model to feature number 23, g__Bacteroides_H_857956
+2025-03-12 08:46:56.576414 INFO::Fitting model to feature number 24, g__Bifidobacterium_388775
+2025-03-12 08:46:56.58113 INFO::Fitting model to feature number 25, g__Borkfalkia
+2025-03-12 08:46:56.58573 INFO::Fitting model to feature number 26, g__Brotaphodocola
+2025-03-12 08:46:56.590336 INFO::Fitting model to feature number 27, g__Butyribacter
+2025-03-12 08:46:56.595042 INFO::Fitting model to feature number 28, g__C-19
+2025-03-12 08:46:56.598453 INFO::Fitting model to feature number 29, g__CAG-269
+2025-03-12 08:46:56.603739 INFO::Fitting model to feature number 30, g__CAG-314
+2025-03-12 08:46:56.608314 INFO::Fitting model to feature number 31, g__CAG-873
+2025-03-12 08:46:56.612897 INFO::Fitting model to feature number 32, g__COE1
+2025-03-12 08:46:56.617493 INFO::Fitting model to feature number 33, g__Choladousia
+2025-03-12 08:46:56.621988 INFO::Fitting model to feature number 34, g__Clostridium_AQ
+2025-03-12 08:46:56.62551 INFO::Fitting model to feature number 35, g__Clostridium_J
+2025-03-12 08:46:56.628992 INFO::Fitting model to feature number 36, g__Clostridium_T
+2025-03-12 08:46:56.633564 INFO::Fitting model to feature number 37, g__Comamonas_F_589250
+2025-03-12 08:46:56.638189 INFO::Fitting model to feature number 38, g__Dorea_D_143701
+2025-03-12 08:46:56.642687 INFO::Fitting model to feature number 39, g__Dubosiella
+2025-03-12 08:46:56.647314 INFO::Fitting model to feature number 40, g__Duncaniella
+2025-03-12 08:46:56.652224 INFO::Fitting model to feature number 41, g__Dysosmobacter
+2025-03-12 08:46:56.65709 INFO::Fitting model to feature number 42, g__Emergencia
+2025-03-12 08:46:56.661789 INFO::Fitting model to feature number 43, g__Enterenecus
+2025-03-12 08:46:56.66633 INFO::Fitting model to feature number 44, g__Enterocloster
+2025-03-12 08:46:56.669683 INFO::Fitting model to feature number 45, g__Enterococcus_B
+2025-03-12 08:46:56.6732 INFO::Fitting model to feature number 46, g__Enterococcus_H_360604
+2025-03-12 08:46:56.677705 INFO::Fitting model to feature number 47, g__Enterorhabdus
+2025-03-12 08:46:56.682359 INFO::Fitting model to feature number 48, g__Eubacterium_F
+2025-03-12 08:46:56.687166 INFO::Fitting model to feature number 49, g__Eubacterium_G_180878
+2025-03-12 08:46:56.691755 INFO::Fitting model to feature number 50, g__Eubacterium_R
+2025-03-12 08:46:56.696358 INFO::Fitting model to feature number 51, g__Faecalibaculum
+2025-03-12 08:46:56.700901 INFO::Fitting model to feature number 52, g__Granulimonas
+2025-03-12 08:46:56.705436 INFO::Fitting model to feature number 53, g__Hominilimicola
+2025-03-12 08:46:56.708321 WARNING::Fitting problem for feature 53 returning NA
+2025-03-12 08:46:56.711295 INFO::Fitting model to feature number 54, g__Hominisplanchenecus_A
+2025-03-12 08:46:56.716122 INFO::Fitting model to feature number 55, g__Ileibacterium
+2025-03-12 08:46:56.719682 INFO::Fitting model to feature number 56, g__Kineothrix
+2025-03-12 08:46:56.728841 INFO::Fitting model to feature number 57, g__Lachnoclostridium_B
+2025-03-12 08:46:56.733616 INFO::Fitting model to feature number 58, g__Lacrimispora
+2025-03-12 08:46:56.738355 INFO::Fitting model to feature number 59, g__Lactobacillus
+2025-03-12 08:46:56.743003 INFO::Fitting model to feature number 60, g__Laedolimicola
+2025-03-12 08:46:56.747903 INFO::Fitting model to feature number 61, g__Lawsonibacter
+2025-03-12 08:46:56.752547 INFO::Fitting model to feature number 62, g__Lepagella
+2025-03-12 08:46:56.757197 INFO::Fitting model to feature number 63, g__Lientehia
+2025-03-12 08:46:56.760853 INFO::Fitting model to feature number 64, g__Ligilactobacillus
+2025-03-12 08:46:56.765529 INFO::Fitting model to feature number 65, g__Limosilactobacillus
+2025-03-12 08:46:56.769049 INFO::Fitting model to feature number 66, g__MD308
+2025-03-12 08:46:56.773756 INFO::Fitting model to feature number 67, g__Merdibacter
+2025-03-12 08:46:56.778518 INFO::Fitting model to feature number 68, g__Mesorhizobium_I
+2025-03-12 08:46:56.783077 INFO::Fitting model to feature number 69, g__NK4A144
+2025-03-12 08:46:56.787633 INFO::Fitting model to feature number 70, g__Novosphingobium
+2025-03-12 08:46:56.792244 INFO::Fitting model to feature number 71, g__Paraclostridium
+2025-03-12 08:46:56.795625 INFO::Fitting model to feature number 72, g__Parasutterella_564865
+2025-03-12 08:46:56.800234 INFO::Fitting model to feature number 73, g__Parvibacter
+2025-03-12 08:46:56.804068 WARNING::Fitting problem for feature 73 returning NA
+2025-03-12 08:46:56.807158 INFO::Fitting model to feature number 74, g__Pelethenecus
+2025-03-12 08:46:56.811732 INFO::Fitting model to feature number 75, g__Petralouisia
+2025-03-12 08:46:56.816492 INFO::Fitting model to feature number 76, g__Porcincola
+2025-03-12 08:46:56.821057 INFO::Fitting model to feature number 77, g__Pseudomonas_E_647464
+2025-03-12 08:46:56.825757 INFO::Fitting model to feature number 78, g__Romboutsia_B
+2025-03-12 08:46:56.830682 INFO::Fitting model to feature number 79, g__Romboutsia_D_247318
+2025-03-12 08:46:56.835411 INFO::Fitting model to feature number 80, g__Ruminococcus_B
+2025-03-12 08:46:56.840109 INFO::Fitting model to feature number 81, g__Schaedlerella
+2025-03-12 08:46:56.844698 INFO::Fitting model to feature number 82, g__Sporofaciens
+2025-03-12 08:46:56.850004 INFO::Fitting model to feature number 83, g__Staphylococcus
+2025-03-12 08:46:56.854577 INFO::Fitting model to feature number 84, g__Stenotrophomonas_A_615274
+2025-03-12 08:46:56.859176 INFO::Fitting model to feature number 85, g__Streptococcus
+2025-03-12 08:46:56.862222 WARNING::Fitting problem for feature 85 returning NA
+2025-03-12 08:46:56.865414 INFO::Fitting model to feature number 86, g__Suilimivivens
+2025-03-12 08:46:56.870263 INFO::Fitting model to feature number 87, g__Thomasclavelia
+2025-03-12 08:46:56.874976 INFO::Fitting model to feature number 88, g__Turicibacter
+2025-03-12 08:46:56.879714 INFO::Fitting model to feature number 89, g__UBA2730
+2025-03-12 08:46:56.884613 INFO::Fitting model to feature number 90, g__UBA3282
+2025-03-12 08:46:56.889308 INFO::Fitting model to feature number 91, g__UBA7173
+2025-03-12 08:46:56.892919 INFO::Fitting model to feature number 92, g__UBA9414
+2025-03-12 08:46:56.897504 INFO::Fitting model to feature number 93, g__UBA946
+2025-03-12 08:46:56.902114 INFO::Fitting model to feature number 94, g__Ventrisoma
+2025-03-12 08:46:56.907716 INFO::Fitting model to feature number 95, g__WRAF01
+2025-03-12 08:46:56.912516 INFO::Fitting model to feature number 96, o__Christensenellales Order
+2025-03-12 08:46:56.917272 INFO::Fitting model to feature number 97, o__Lachnospirales Order
+2025-03-12 08:46:56.920179 WARNING::Fitting problem for feature 97 returning NA
+2025-03-12 08:46:56.955444 INFO::Creating fits folder
+2025-03-12 08:46:56.962879 INFO::Writing model objects to file data/fmtad_wabx_maaslin3_11pi_sex/fits/models_linear.rds
+2025-03-12 08:46:59.600554 INFO::Writing residuals to file data/fmtad_wabx_maaslin3_11pi_sex/fits/residuals_linear.rds
+2025-03-12 08:46:59.608179 INFO::Writing fitted values to file data/fmtad_wabx_maaslin3_11pi_sex/fits/fitted_linear.rds
+2025-03-12 08:46:59.61443 INFO::Writing model objects to file data/fmtad_wabx_maaslin3_11pi_sex/fits/models_logistic.rds
+2025-03-12 08:47:02.416668 INFO::Writing residuals to file data/fmtad_wabx_maaslin3_11pi_sex/fits/residuals_logistic.rds
+2025-03-12 08:47:02.424787 INFO::Writing fitted values to file data/fmtad_wabx_maaslin3_11pi_sex/fits/fitted_logistic.rds
+2025-03-12 08:47:02.432298 INFO::Writing all the results to file (ordered 
+            by increasing individual q-values): data/fmtad_wabx_maaslin3_11pi_sex/all_results.tsv
+2025-03-12 08:47:02.439242 INFO::Writing the significant results without errors (those which have joint q-values less than or equal to the threshold of 0.100000 ) to file (ordered by increasing individual q-values): data/fmtad_wabx_maaslin3_11pi_sex/significant_results.tsv
+2025-03-12 08:47:02.444761 INFO::Creating output figures folder
+2025-03-12 08:47:02.449277 INFO::Writing summary plot of significant
+                        results to file: data/fmtad_wabx_maaslin3_11pi_sex/figures/summary_plot.pdf
+2025-03-12 08:47:03.257363 INFO::Writing association plots (one for each significant association) to output folder: data/fmtad_wabx_maaslin3_11pi_sex/figures
+2025-03-12 08:47:03.260439 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-03-12 08:47:03.265639 INFO::Creating box plot for categorical data (linear), 
+                        Sex vs f__Muribaculaceae Family
+2025-03-12 08:47:03.284728 INFO::Creating box plot for categorical data (linear), 
+                        Sex vs g__Duncaniella
+2025-03-12 08:47:03.302747 INFO::Creating tile plot for categorical data (logistic), Sex vs f__Lachnospiraceae Family
+2025-03-12 08:47:03.330779 INFO::Creating tile plot for categorical data (logistic), Sex vs g__Granulimonas
+2025-03-12 08:47:03.35616 INFO::Creating tile plot for categorical data (logistic), Sex vs g__Schaedlerella
